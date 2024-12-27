@@ -8,8 +8,6 @@ clf = tree.DecisionTreeClassifier()
 
 clf = clf.fit(x, y)
 
-#prediction = clf.predict([[150, 60, 40]])
-
 for i in range(5):
 	dp = [random.randint(150, 200), random.randint(50, 90), random.randint(35, 50)]
 	val = clf.predict([dp])
